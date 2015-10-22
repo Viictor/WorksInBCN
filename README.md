@@ -7,4 +7,6 @@ This allows to know the data’s reach and to proceed to treat them in a way tha
 The process starts from filtering the data, to its later use through the digital image processing. 
 Once the data has been processed it will be integrated in the application and the alert system will be created.
 
-![alt tag](https://raw.github.com/Viictor/WorksInBCN/master/preview.jpg)
+![alt tag](https://raw.github.com/Viictor/WorksInBCN/master/preview1.png)
+![alt tag](https://raw.github.com/Viictor/WorksInBCN/master/preview2.png)
+![alt tag](https://raw.github.com/Viictor/WorksInBCN/master/preview3.png)
