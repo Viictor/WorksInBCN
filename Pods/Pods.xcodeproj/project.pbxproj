@@ -1,0 +1,893 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D310FAC19406DAC7B336D4C /* Pods-WorksInBCN-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A8167DA8E227DC56EC11FD /* Pods-WorksInBCN-dummy.m */; };
+		229B5BA455BCC7084E547D8F /* Pods-WorksInBCN-SOMotionDetector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12747F3DD066D9CC4C1C8292 /* Pods-WorksInBCN-SOMotionDetector-dummy.m */; };
+		302B9110192CCF2105D3B5B2 /* Pods-WorksInBCN-UIColor+BFPaperColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E47D88BDAF2106C860617DD /* Pods-WorksInBCN-UIColor+BFPaperColors-dummy.m */; };
+		41342F3450380F3F2F4D71C6 /* SOLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F9D2F50F27C83CE891F3B4 /* SOLocationManager.h */; };
+		553608E657EC31C4CF890831 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E9BAF7E72A8EA679959B2B /* Foundation.framework */; };
+		6271857A46D1A4C428267BE8 /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D36573597BB906FBF5F46 /* UIColor+BFPaperColors.m */; };
+		780194137EBCB9AA6670B499 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E9BAF7E72A8EA679959B2B /* Foundation.framework */; };
+		7C1FCD352EE8D853D8B4B013 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E9BAF7E72A8EA679959B2B /* Foundation.framework */; };
+		7E710A2A90857ACBB73C9C40 /* UIColor+BFPaperColors.h in Headers */ = {isa = PBXBuildFile; fileRef = F215AFD0026EB4B91E46F23C /* UIColor+BFPaperColors.h */; };
+		82BB90211B4973341F35C261 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EEFC632491E9579A2ADF51 /* MapKit.framework */; };
+		8A8336C70E1500BF40AB6A16 /* Pods-WorksInBCN-GeodeticUTMConverter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFE4FC603EE1AE24912BA1B /* Pods-WorksInBCN-GeodeticUTMConverter-dummy.m */; };
+		9C0A8AD35166E49F71C0B92C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61F1B27E366CACDD4386A37 /* CoreMotion.framework */; };
+		A3203722A7A6BCD53524E237 /* BFPaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 918547AC9477B33A612EC1B6 /* BFPaperButton.m */; };
+		A384B7DAC65C4F2832D4B902 /* GeodeticUTMConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D4F1B1BD4867DC09DB763B /* GeodeticUTMConverter.m */; };
+		AEE8ED32F35700BB342151D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E9BAF7E72A8EA679959B2B /* Foundation.framework */; };
+		AF9D82E4836A06B814C7918D /* BFPaperButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB1B0578E3DA119E2DBFAD0 /* BFPaperButton.h */; };
+		BC02ED9A472878A59F42A8EF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5923A6F13FAD66055537E950 /* CoreLocation.framework */; };
+		C29444FF9CA2E4E90A2CB9FF /* SOLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F9159D55DF70AB86891BE2BB /* SOLocationManager.m */; };
+		CB7962496EB87C7358F7B850 /* GeodeticUTMConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A7687FCDC1523372B3B812 /* GeodeticUTMConverter.h */; };
+		CEFFE13F5E5E2187FDEC3F69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E9BAF7E72A8EA679959B2B /* Foundation.framework */; };
+		D9DC6FDD12C39B1E7C85CE1F /* Pods-WorksInBCN-BFPaperButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EC60CA93E1A051455FD35 /* Pods-WorksInBCN-BFPaperButton-dummy.m */; };
+		E40B4F8C1009BD771C29B233 /* SOMotionDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 78450266E76C1808793EDEA0 /* SOMotionDetector.h */; };
+		EC979E4ED314B2A08554B2D6 /* SOMotionDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = A8205707D7A2755A1B5555DA /* SOMotionDetector.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06BF86A0983699E938455331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B16BA869821B796C9DFCBD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B471ACB79135E36CED41BE76;
+			remoteInfo = "Pods-WorksInBCN-SOMotionDetector";
+		};
+		349C05E58A1AA9E608EB7A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B16BA869821B796C9DFCBD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A17C87717C7AEA6766B35AB;
+			remoteInfo = "Pods-WorksInBCN-UIColor+BFPaperColors";
+		};
+		6DBA5A91465854433A72AED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B16BA869821B796C9DFCBD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 902633F15898EC79D2BB41FE;
+			remoteInfo = "Pods-WorksInBCN-BFPaperButton";
+		};
+		8E4785B10AF74D8C54B5E8A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B16BA869821B796C9DFCBD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A17C87717C7AEA6766B35AB;
+			remoteInfo = "Pods-WorksInBCN-UIColor+BFPaperColors";
+		};
+		FD3F6067A146A9561031B9B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B16BA869821B796C9DFCBD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3C0C5C09B4FDF84504E7728;
+			remoteInfo = "Pods-WorksInBCN-GeodeticUTMConverter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		054A3079D10D4BC2A40925FF /* Pods-WorksInBCN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorksInBCN.release.xcconfig"; sourceTree = "<group>"; };
+		12747F3DD066D9CC4C1C8292 /* Pods-WorksInBCN-SOMotionDetector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorksInBCN-SOMotionDetector-dummy.m"; sourceTree = "<group>"; };
+		13304B92A4DD6F376E845C4F /* Pods-WorksInBCN-GeodeticUTMConverter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorksInBCN-GeodeticUTMConverter-prefix.pch"; sourceTree = "<group>"; };
+		1378BC3C58BFC1DEF00A0C1E /* Pods-WorksInBCN-SOMotionDetector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorksInBCN-SOMotionDetector-prefix.pch"; sourceTree = "<group>"; };
+		169B5463B45553CA22FC09B4 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		1EFE4FC603EE1AE24912BA1B /* Pods-WorksInBCN-GeodeticUTMConverter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorksInBCN-GeodeticUTMConverter-dummy.m"; sourceTree = "<group>"; };
+		223034C6FA69FFFAC4FAA1BD /* Pods-WorksInBCN-GeodeticUTMConverter-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorksInBCN-GeodeticUTMConverter-Private.xcconfig"; sourceTree = "<group>"; };
+		269FE6A0952B40EB8F83B9B6 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		2C6D36573597BB906FBF5F46 /* UIColor+BFPaperColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+BFPaperColors.m"; path = "UIColor+BFPaperColors/UIColor+BFPaperColors.m"; sourceTree = "<group>"; };
+		35D4F1B1BD4867DC09DB763B /* GeodeticUTMConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GeodeticUTMConverter.m; path = GeodeticUTMConverter/Classes/GeodeticUTMConverter.m; sourceTree = "<group>"; };
+		3E47D88BDAF2106C860617DD /* Pods-WorksInBCN-UIColor+BFPaperColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorksInBCN-UIColor+BFPaperColors-dummy.m"; sourceTree = "<group>"; };
+		41912A3255BC90FF7D4D7835 /* Pods-WorksInBCN-UIColor+BFPaperColors-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorksInBCN-UIColor+BFPaperColors-Private.xcconfig"; sourceTree = "<group>"; };
+		49F9D2F50F27C83CE891F3B4 /* SOLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOLocationManager.h; path = SOMotionDetector/SOLocationManager.h; sourceTree = "<group>"; };
+		4BA71ACC32E575A4AAC98D00 /* libPods-WorksInBCN-BFPaperButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WorksInBCN-BFPaperButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		519E043998646B5AFF609C34 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		53A1BE3A4C3F96486C0D64EA /* Pods-WorksInBCN-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorksInBCN-environment.h"; sourceTree = "<group>"; };
+		53E9BAF7E72A8EA679959B2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		54FFA5207402B3F7EF4E5C25 /* Pods-WorksInBCN-UIColor+BFPaperColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorksInBCN-UIColor+BFPaperColors-prefix.pch"; sourceTree = "<group>"; };
+		5923A6F13FAD66055537E950 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		65A8167DA8E227DC56EC11FD /* Pods-WorksInBCN-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorksInBCN-dummy.m"; sourceTree = "<group>"; };
+		72EEFC632491E9579A2ADF51 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		78450266E76C1808793EDEA0 /* SOMotionDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOMotionDetector.h; path = SOMotionDetector/SOMotionDetector.h; sourceTree = "<group>"; };
+		8AB1B0578E3DA119E2DBFAD0 /* BFPaperButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFPaperButton.h; path = Classes/BFPaperButton.h; sourceTree = "<group>"; };
+		918547AC9477B33A612EC1B6 /* BFPaperButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFPaperButton.m; path = Classes/BFPaperButton.m; sourceTree = "<group>"; };
+		939B4EEFE2C57C06164E74B7 /* Pods-WorksInBCN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorksInBCN.debug.xcconfig"; sourceTree = "<group>"; };
+		9467E7222CC1E5718A83E565 /* Pods-WorksInBCN-SOMotionDetector-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorksInBCN-SOMotionDetector-Private.xcconfig"; sourceTree = "<group>"; };
+		97A7687FCDC1523372B3B812 /* GeodeticUTMConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeodeticUTMConverter.h; path = GeodeticUTMConverter/Classes/GeodeticUTMConverter.h; sourceTree = "<group>"; };
+		9D831BB42880B5999C5ECE33 /* Pods-WorksInBCN-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorksInBCN-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9EDA0A053B52564197612327 /* Pods-WorksInBCN-BFPaperButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorksInBCN-BFPaperButton-prefix.pch"; sourceTree = "<group>"; };
+		A8205707D7A2755A1B5555DA /* SOMotionDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOMotionDetector.m; path = SOMotionDetector/SOMotionDetector.m; sourceTree = "<group>"; };
+		AB3A5F9E5EEAE5FD5F0B74AD /* libPods-WorksInBCN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WorksInBCN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17EB24F4A2DA261CD481A17 /* Pods-WorksInBCN-BFPaperButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorksInBCN-BFPaperButton-Private.xcconfig"; sourceTree = "<group>"; };
+		B2CE2083FD34430538258181 /* Pods-WorksInBCN-GeodeticUTMConverter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorksInBCN-GeodeticUTMConverter.xcconfig"; sourceTree = "<group>"; };
+		BC0B6B680C79D3832DBB6D52 /* Pods-WorksInBCN-BFPaperButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorksInBCN-BFPaperButton.xcconfig"; sourceTree = "<group>"; };
+		C61F1B27E366CACDD4386A37 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		CBF4BF80FCCC1F6F7022C55D /* libPods-WorksInBCN-UIColor+BFPaperColors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WorksInBCN-UIColor+BFPaperColors.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE89EEC22E40AD4E3489FC26 /* Pods-WorksInBCN-UIColor+BFPaperColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorksInBCN-UIColor+BFPaperColors.xcconfig"; sourceTree = "<group>"; };
+		CFDDAC5C4E346164C0A38C84 /* libPods-WorksInBCN-GeodeticUTMConverter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WorksInBCN-GeodeticUTMConverter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26EC60CA93E1A051455FD35 /* Pods-WorksInBCN-BFPaperButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorksInBCN-BFPaperButton-dummy.m"; sourceTree = "<group>"; };
+		D73DFA19612DFFE5EF20BD23 /* Pods-WorksInBCN-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorksInBCN-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBD6341A1C556C26E5E17AD5 /* Pods-WorksInBCN-SOMotionDetector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorksInBCN-SOMotionDetector.xcconfig"; sourceTree = "<group>"; };
+		E98AFCC1911B6D8EDC51E0EF /* Pods-WorksInBCN-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorksInBCN-resources.sh"; sourceTree = "<group>"; };
+		F215AFD0026EB4B91E46F23C /* UIColor+BFPaperColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+BFPaperColors.h"; path = "UIColor+BFPaperColors/UIColor+BFPaperColors.h"; sourceTree = "<group>"; };
+		F290FD686721D0802D779517 /* libPods-WorksInBCN-SOMotionDetector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WorksInBCN-SOMotionDetector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9159D55DF70AB86891BE2BB /* SOLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOLocationManager.m; path = SOMotionDetector/SOLocationManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54BB7D476F70BBB18AD0D195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFFE13F5E5E2187FDEC3F69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB77EF72F2A8899E2F2CF68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780194137EBCB9AA6670B499 /* Foundation.framework in Frameworks */,
+				82BB90211B4973341F35C261 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB93BE83AD4EAB184A0B7EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE8ED32F35700BB342151D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A037B6B0074EABDE72A64EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1FCD352EE8D853D8B4B013 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9BB54FBEE4C448B9116EE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC02ED9A472878A59F42A8EF /* CoreLocation.framework in Frameworks */,
+				9C0A8AD35166E49F71C0B92C /* CoreMotion.framework in Frameworks */,
+				553608E657EC31C4CF890831 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BDB7630B6DC69420D279256 /* Pods-WorksInBCN */ = {
+			isa = PBXGroup;
+			children = (
+				9D831BB42880B5999C5ECE33 /* Pods-WorksInBCN-acknowledgements.markdown */,
+				D73DFA19612DFFE5EF20BD23 /* Pods-WorksInBCN-acknowledgements.plist */,
+				65A8167DA8E227DC56EC11FD /* Pods-WorksInBCN-dummy.m */,
+				53A1BE3A4C3F96486C0D64EA /* Pods-WorksInBCN-environment.h */,
+				E98AFCC1911B6D8EDC51E0EF /* Pods-WorksInBCN-resources.sh */,
+				939B4EEFE2C57C06164E74B7 /* Pods-WorksInBCN.debug.xcconfig */,
+				054A3079D10D4BC2A40925FF /* Pods-WorksInBCN.release.xcconfig */,
+			);
+			name = "Pods-WorksInBCN";
+			path = "Target Support Files/Pods-WorksInBCN";
+			sourceTree = "<group>";
+		};
+		1469E5E3B68B7FF40E3D63EA /* SOMotionDetector */ = {
+			isa = PBXGroup;
+			children = (
+				49F9D2F50F27C83CE891F3B4 /* SOLocationManager.h */,
+				F9159D55DF70AB86891BE2BB /* SOLocationManager.m */,
+				78450266E76C1808793EDEA0 /* SOMotionDetector.h */,
+				A8205707D7A2755A1B5555DA /* SOMotionDetector.m */,
+				4C44E357627C9C73A4D54347 /* Support Files */,
+			);
+			path = SOMotionDetector;
+			sourceTree = "<group>";
+		};
+		2E591981D6A5FBC053E7B4F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				269FE6A0952B40EB8F83B9B6 /* GoogleMaps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3501218600E7D6E977629685 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				169B5463B45553CA22FC09B4 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		422B5CAA1C58B1BFE6C1601C /* GeodeticUTMConverter */ = {
+			isa = PBXGroup;
+			children = (
+				97A7687FCDC1523372B3B812 /* GeodeticUTMConverter.h */,
+				35D4F1B1BD4867DC09DB763B /* GeodeticUTMConverter.m */,
+				8643F5CD075117980A8E0F21 /* Support Files */,
+			);
+			path = GeodeticUTMConverter;
+			sourceTree = "<group>";
+		};
+		4C44E357627C9C73A4D54347 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBD6341A1C556C26E5E17AD5 /* Pods-WorksInBCN-SOMotionDetector.xcconfig */,
+				9467E7222CC1E5718A83E565 /* Pods-WorksInBCN-SOMotionDetector-Private.xcconfig */,
+				12747F3DD066D9CC4C1C8292 /* Pods-WorksInBCN-SOMotionDetector-dummy.m */,
+				1378BC3C58BFC1DEF00A0C1E /* Pods-WorksInBCN-SOMotionDetector-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-WorksInBCN-SOMotionDetector";
+			sourceTree = "<group>";
+		};
+		68E83B6E51C497F43EFA04C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC0B6B680C79D3832DBB6D52 /* Pods-WorksInBCN-BFPaperButton.xcconfig */,
+				B17EB24F4A2DA261CD481A17 /* Pods-WorksInBCN-BFPaperButton-Private.xcconfig */,
+				D26EC60CA93E1A051455FD35 /* Pods-WorksInBCN-BFPaperButton-dummy.m */,
+				9EDA0A053B52564197612327 /* Pods-WorksInBCN-BFPaperButton-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-WorksInBCN-BFPaperButton";
+			sourceTree = "<group>";
+		};
+		8643F5CD075117980A8E0F21 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2CE2083FD34430538258181 /* Pods-WorksInBCN-GeodeticUTMConverter.xcconfig */,
+				223034C6FA69FFFAC4FAA1BD /* Pods-WorksInBCN-GeodeticUTMConverter-Private.xcconfig */,
+				1EFE4FC603EE1AE24912BA1B /* Pods-WorksInBCN-GeodeticUTMConverter-dummy.m */,
+				13304B92A4DD6F376E845C4F /* Pods-WorksInBCN-GeodeticUTMConverter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-WorksInBCN-GeodeticUTMConverter";
+			sourceTree = "<group>";
+		};
+		95ED5B60AC0643B974C36F4A = {
+			isa = PBXGroup;
+			children = (
+				519E043998646B5AFF609C34 /* Podfile */,
+				9D0611FA89F6674FBFAB12E2 /* Frameworks */,
+				EFB9C6558BE6E2A73B632819 /* Pods */,
+				F5CD823B035A5ED2EC2E7754 /* Products */,
+				E6932212CEF4E9F79BEB62EF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D0611FA89F6674FBFAB12E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B272D6142DAF7654B7260A9A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D2EEA422C2CDDC8E127D533 /* UIColor+BFPaperColors */ = {
+			isa = PBXGroup;
+			children = (
+				F215AFD0026EB4B91E46F23C /* UIColor+BFPaperColors.h */,
+				2C6D36573597BB906FBF5F46 /* UIColor+BFPaperColors.m */,
+				EFA4D94D00F7FBAA4B740D61 /* Support Files */,
+			);
+			path = "UIColor+BFPaperColors";
+			sourceTree = "<group>";
+		};
+		A71392CEB41C080E96D5A393 /* BFPaperButton */ = {
+			isa = PBXGroup;
+			children = (
+				8AB1B0578E3DA119E2DBFAD0 /* BFPaperButton.h */,
+				918547AC9477B33A612EC1B6 /* BFPaperButton.m */,
+				68E83B6E51C497F43EFA04C0 /* Support Files */,
+			);
+			path = BFPaperButton;
+			sourceTree = "<group>";
+		};
+		B272D6142DAF7654B7260A9A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5923A6F13FAD66055537E950 /* CoreLocation.framework */,
+				C61F1B27E366CACDD4386A37 /* CoreMotion.framework */,
+				53E9BAF7E72A8EA679959B2B /* Foundation.framework */,
+				72EEFC632491E9579A2ADF51 /* MapKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E6932212CEF4E9F79BEB62EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BDB7630B6DC69420D279256 /* Pods-WorksInBCN */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EFA4D94D00F7FBAA4B740D61 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE89EEC22E40AD4E3489FC26 /* Pods-WorksInBCN-UIColor+BFPaperColors.xcconfig */,
+				41912A3255BC90FF7D4D7835 /* Pods-WorksInBCN-UIColor+BFPaperColors-Private.xcconfig */,
+				3E47D88BDAF2106C860617DD /* Pods-WorksInBCN-UIColor+BFPaperColors-dummy.m */,
+				54FFA5207402B3F7EF4E5C25 /* Pods-WorksInBCN-UIColor+BFPaperColors-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-WorksInBCN-UIColor+BFPaperColors";
+			sourceTree = "<group>";
+		};
+		EFB9C6558BE6E2A73B632819 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A71392CEB41C080E96D5A393 /* BFPaperButton */,
+				422B5CAA1C58B1BFE6C1601C /* GeodeticUTMConverter */,
+				FE8BE49836D6EEEE87446D16 /* GoogleMaps */,
+				1469E5E3B68B7FF40E3D63EA /* SOMotionDetector */,
+				9D2EEA422C2CDDC8E127D533 /* UIColor+BFPaperColors */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5CD823B035A5ED2EC2E7754 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB3A5F9E5EEAE5FD5F0B74AD /* libPods-WorksInBCN.a */,
+				4BA71ACC32E575A4AAC98D00 /* libPods-WorksInBCN-BFPaperButton.a */,
+				CFDDAC5C4E346164C0A38C84 /* libPods-WorksInBCN-GeodeticUTMConverter.a */,
+				F290FD686721D0802D779517 /* libPods-WorksInBCN-SOMotionDetector.a */,
+				CBF4BF80FCCC1F6F7022C55D /* libPods-WorksInBCN-UIColor+BFPaperColors.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE8BE49836D6EEEE87446D16 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				2E591981D6A5FBC053E7B4F4 /* Frameworks */,
+				3501218600E7D6E977629685 /* Resources */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36E4E9C6E072AE081E6B9E15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9D82E4836A06B814C7918D /* BFPaperButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A7F8271F4B439CC2EEEAE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E710A2A90857ACBB73C9C40 /* UIColor+BFPaperColors.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71934651C9386477789F4060 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41342F3450380F3F2F4D71C6 /* SOLocationManager.h in Headers */,
+				E40B4F8C1009BD771C29B233 /* SOMotionDetector.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C7BB9D6DC2EEE66168308F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7962496EB87C7358F7B850 /* GeodeticUTMConverter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6A17C87717C7AEA6766B35AB /* Pods-WorksInBCN-UIColor+BFPaperColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86FDAE191A2583BCBC3B7F3E /* Build configuration list for PBXNativeTarget "Pods-WorksInBCN-UIColor+BFPaperColors" */;
+			buildPhases = (
+				32B2F3907F183FF570854B39 /* Sources */,
+				54BB7D476F70BBB18AD0D195 /* Frameworks */,
+				55A7F8271F4B439CC2EEEAE8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WorksInBCN-UIColor+BFPaperColors";
+			productName = "Pods-WorksInBCN-UIColor+BFPaperColors";
+			productReference = CBF4BF80FCCC1F6F7022C55D /* libPods-WorksInBCN-UIColor+BFPaperColors.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		902633F15898EC79D2BB41FE /* Pods-WorksInBCN-BFPaperButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E4D03E1953DA5410562BC58 /* Build configuration list for PBXNativeTarget "Pods-WorksInBCN-BFPaperButton" */;
+			buildPhases = (
+				FABCCFDF153B52FF48EEFDE1 /* Sources */,
+				9EB93BE83AD4EAB184A0B7EE /* Frameworks */,
+				36E4E9C6E072AE081E6B9E15 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				763BC3D8F3C8A241E6B8A1C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-WorksInBCN-BFPaperButton";
+			productName = "Pods-WorksInBCN-BFPaperButton";
+			productReference = 4BA71ACC32E575A4AAC98D00 /* libPods-WorksInBCN-BFPaperButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B3C0C5C09B4FDF84504E7728 /* Pods-WorksInBCN-GeodeticUTMConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D156005131E0CBC9C890516 /* Build configuration list for PBXNativeTarget "Pods-WorksInBCN-GeodeticUTMConverter" */;
+			buildPhases = (
+				83D8A3031EE88AF57628DD9D /* Sources */,
+				6AB77EF72F2A8899E2F2CF68 /* Frameworks */,
+				89C7BB9D6DC2EEE66168308F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WorksInBCN-GeodeticUTMConverter";
+			productName = "Pods-WorksInBCN-GeodeticUTMConverter";
+			productReference = CFDDAC5C4E346164C0A38C84 /* libPods-WorksInBCN-GeodeticUTMConverter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B471ACB79135E36CED41BE76 /* Pods-WorksInBCN-SOMotionDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77872616C2A90BD50A01050 /* Build configuration list for PBXNativeTarget "Pods-WorksInBCN-SOMotionDetector" */;
+			buildPhases = (
+				38C59EF1A8C7F84A8BEEED29 /* Sources */,
+				EC9BB54FBEE4C448B9116EE8 /* Frameworks */,
+				71934651C9386477789F4060 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WorksInBCN-SOMotionDetector";
+			productName = "Pods-WorksInBCN-SOMotionDetector";
+			productReference = F290FD686721D0802D779517 /* libPods-WorksInBCN-SOMotionDetector.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C1A773D8925D4D634B2C66CE /* Pods-WorksInBCN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 225448B6B4199F7F6BE4B8A7 /* Build configuration list for PBXNativeTarget "Pods-WorksInBCN" */;
+			buildPhases = (
+				E065B4C631A7DA012EAAA266 /* Sources */,
+				A037B6B0074EABDE72A64EB0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4802663A3AA027ED2582FE10 /* PBXTargetDependency */,
+				2A6EB20512D17E3635FD0805 /* PBXTargetDependency */,
+				FCFEF33A13E95C28900C76BE /* PBXTargetDependency */,
+				34D81A281D55F1013513466D /* PBXTargetDependency */,
+			);
+			name = "Pods-WorksInBCN";
+			productName = "Pods-WorksInBCN";
+			productReference = AB3A5F9E5EEAE5FD5F0B74AD /* libPods-WorksInBCN.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B16BA869821B796C9DFCBD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 78D1E3FBE655DB601584B7E8 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95ED5B60AC0643B974C36F4A;
+			productRefGroup = F5CD823B035A5ED2EC2E7754 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1A773D8925D4D634B2C66CE /* Pods-WorksInBCN */,
+				902633F15898EC79D2BB41FE /* Pods-WorksInBCN-BFPaperButton */,
+				B3C0C5C09B4FDF84504E7728 /* Pods-WorksInBCN-GeodeticUTMConverter */,
+				B471ACB79135E36CED41BE76 /* Pods-WorksInBCN-SOMotionDetector */,
+				6A17C87717C7AEA6766B35AB /* Pods-WorksInBCN-UIColor+BFPaperColors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B2F3907F183FF570854B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302B9110192CCF2105D3B5B2 /* Pods-WorksInBCN-UIColor+BFPaperColors-dummy.m in Sources */,
+				6271857A46D1A4C428267BE8 /* UIColor+BFPaperColors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C59EF1A8C7F84A8BEEED29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229B5BA455BCC7084E547D8F /* Pods-WorksInBCN-SOMotionDetector-dummy.m in Sources */,
+				C29444FF9CA2E4E90A2CB9FF /* SOLocationManager.m in Sources */,
+				EC979E4ED314B2A08554B2D6 /* SOMotionDetector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D8A3031EE88AF57628DD9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A384B7DAC65C4F2832D4B902 /* GeodeticUTMConverter.m in Sources */,
+				8A8336C70E1500BF40AB6A16 /* Pods-WorksInBCN-GeodeticUTMConverter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E065B4C631A7DA012EAAA266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D310FAC19406DAC7B336D4C /* Pods-WorksInBCN-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABCCFDF153B52FF48EEFDE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3203722A7A6BCD53524E237 /* BFPaperButton.m in Sources */,
+				D9DC6FDD12C39B1E7C85CE1F /* Pods-WorksInBCN-BFPaperButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A6EB20512D17E3635FD0805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WorksInBCN-GeodeticUTMConverter";
+			target = B3C0C5C09B4FDF84504E7728 /* Pods-WorksInBCN-GeodeticUTMConverter */;
+			targetProxy = FD3F6067A146A9561031B9B3 /* PBXContainerItemProxy */;
+		};
+		34D81A281D55F1013513466D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WorksInBCN-UIColor+BFPaperColors";
+			target = 6A17C87717C7AEA6766B35AB /* Pods-WorksInBCN-UIColor+BFPaperColors */;
+			targetProxy = 8E4785B10AF74D8C54B5E8A0 /* PBXContainerItemProxy */;
+		};
+		4802663A3AA027ED2582FE10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WorksInBCN-BFPaperButton";
+			target = 902633F15898EC79D2BB41FE /* Pods-WorksInBCN-BFPaperButton */;
+			targetProxy = 6DBA5A91465854433A72AED2 /* PBXContainerItemProxy */;
+		};
+		763BC3D8F3C8A241E6B8A1C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WorksInBCN-UIColor+BFPaperColors";
+			target = 6A17C87717C7AEA6766B35AB /* Pods-WorksInBCN-UIColor+BFPaperColors */;
+			targetProxy = 349C05E58A1AA9E608EB7A39 /* PBXContainerItemProxy */;
+		};
+		FCFEF33A13E95C28900C76BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WorksInBCN-SOMotionDetector";
+			target = B471ACB79135E36CED41BE76 /* Pods-WorksInBCN-SOMotionDetector */;
+			targetProxy = 06BF86A0983699E938455331 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E9CC1B036FDB158B3F20B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939B4EEFE2C57C06164E74B7 /* Pods-WorksInBCN.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1EF0C909D11DF346455E5149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17EB24F4A2DA261CD481A17 /* Pods-WorksInBCN-BFPaperButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WorksInBCN-BFPaperButton/Pods-WorksInBCN-BFPaperButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2593D48C0B4AE1BA11124FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 223034C6FA69FFFAC4FAA1BD /* Pods-WorksInBCN-GeodeticUTMConverter-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WorksInBCN-GeodeticUTMConverter/Pods-WorksInBCN-GeodeticUTMConverter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4AE773996E0BD795E726BA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5133C227DC8D6AEF1F8D29B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17EB24F4A2DA261CD481A17 /* Pods-WorksInBCN-BFPaperButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WorksInBCN-BFPaperButton/Pods-WorksInBCN-BFPaperButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		60A2B01BE7C6D3BE8237660E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7298FEC58180E86863AF121F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41912A3255BC90FF7D4D7835 /* Pods-WorksInBCN-UIColor+BFPaperColors-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WorksInBCN-UIColor+BFPaperColors/Pods-WorksInBCN-UIColor+BFPaperColors-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		77710C3A1AF3C13FFDE1B2EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41912A3255BC90FF7D4D7835 /* Pods-WorksInBCN-UIColor+BFPaperColors-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WorksInBCN-UIColor+BFPaperColors/Pods-WorksInBCN-UIColor+BFPaperColors-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9332204B20F4F3ED30CCAEA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9467E7222CC1E5718A83E565 /* Pods-WorksInBCN-SOMotionDetector-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WorksInBCN-SOMotionDetector/Pods-WorksInBCN-SOMotionDetector-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A9552CF2F3CD1C06D9792151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 054A3079D10D4BC2A40925FF /* Pods-WorksInBCN.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C4C6E7409C34DF148F25D2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 223034C6FA69FFFAC4FAA1BD /* Pods-WorksInBCN-GeodeticUTMConverter-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WorksInBCN-GeodeticUTMConverter/Pods-WorksInBCN-GeodeticUTMConverter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F46D5C19E2BD19863577911D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9467E7222CC1E5718A83E565 /* Pods-WorksInBCN-SOMotionDetector-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WorksInBCN-SOMotionDetector/Pods-WorksInBCN-SOMotionDetector-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E4D03E1953DA5410562BC58 /* Build configuration list for PBXNativeTarget "Pods-WorksInBCN-BFPaperButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5133C227DC8D6AEF1F8D29B7 /* Debug */,
+				1EF0C909D11DF346455E5149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		225448B6B4199F7F6BE4B8A7 /* Build configuration list for PBXNativeTarget "Pods-WorksInBCN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E9CC1B036FDB158B3F20B78 /* Debug */,
+				A9552CF2F3CD1C06D9792151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D156005131E0CBC9C890516 /* Build configuration list for PBXNativeTarget "Pods-WorksInBCN-GeodeticUTMConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2593D48C0B4AE1BA11124FBE /* Debug */,
+				C4C6E7409C34DF148F25D2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78D1E3FBE655DB601584B7E8 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE773996E0BD795E726BA4F /* Debug */,
+				60A2B01BE7C6D3BE8237660E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86FDAE191A2583BCBC3B7F3E /* Build configuration list for PBXNativeTarget "Pods-WorksInBCN-UIColor+BFPaperColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7298FEC58180E86863AF121F /* Debug */,
+				77710C3A1AF3C13FFDE1B2EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77872616C2A90BD50A01050 /* Build configuration list for PBXNativeTarget "Pods-WorksInBCN-SOMotionDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9332204B20F4F3ED30CCAEA6 /* Debug */,
+				F46D5C19E2BD19863577911D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B16BA869821B796C9DFCBD8 /* Project object */;
+}

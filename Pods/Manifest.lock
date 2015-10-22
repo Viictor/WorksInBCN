@@ -1,0 +1,22 @@
+PODS:
+  - BFPaperButton (2.0.18):
+    - UIColor+BFPaperColors
+  - GeodeticUTMConverter (1.0.7)
+  - GoogleMaps (1.10.1)
+  - SOMotionDetector (1.0.1)
+  - UIColor+BFPaperColors (1.7.1)
+
+DEPENDENCIES:
+  - BFPaperButton (~> 2.0)
+  - GeodeticUTMConverter (~> 1.0)
+  - GoogleMaps
+  - SOMotionDetector (~> 1.0)
+
+SPEC CHECKSUMS:
+  BFPaperButton: 16b3ec9c2964d24f89f623a4113321d3f003ed60
+  GeodeticUTMConverter: ada588be3f280b813aa882fc0d95690a63730bdb
+  GoogleMaps: ebf08677f181d9c2dcdbd1721d206f02beccc9b1
+  SOMotionDetector: 9e7975e25ccdaa3f108db510153f92ef433767da
+  UIColor+BFPaperColors: b1efa4320e2f56c4b14f73232faf967ba0e5b4a2
+
+COCOAPODS: 0.36.3

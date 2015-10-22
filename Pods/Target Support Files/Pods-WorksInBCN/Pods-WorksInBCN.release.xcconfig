@@ -1,0 +1,7 @@
+FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/GoogleMaps/Frameworks"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BFPaperButton" "${PODS_ROOT}/Headers/Public/GeodeticUTMConverter" "${PODS_ROOT}/Headers/Public/GoogleMaps" "${PODS_ROOT}/Headers/Public/SOMotionDetector" "${PODS_ROOT}/Headers/Public/UIColor+BFPaperColors"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/BFPaperButton" -isystem "${PODS_ROOT}/Headers/Public/GeodeticUTMConverter" -isystem "${PODS_ROOT}/Headers/Public/GoogleMaps" -isystem "${PODS_ROOT}/Headers/Public/SOMotionDetector" -isystem "${PODS_ROOT}/Headers/Public/UIColor+BFPaperColors"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-WorksInBCN-BFPaperButton" -l"Pods-WorksInBCN-GeodeticUTMConverter" -l"Pods-WorksInBCN-SOMotionDetector" -l"Pods-WorksInBCN-UIColor+BFPaperColors" -l"c++" -l"icucore" -l"z" -framework "AVFoundation" -framework "Accelerate" -framework "CoreBluetooth" -framework "CoreData" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMotion" -framework "CoreText" -framework "GLKit" -framework "GoogleMaps" -framework "ImageIO" -framework "MapKit" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods
